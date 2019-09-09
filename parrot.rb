@@ -1,7 +1,8 @@
 
 
 def parrot(phrase = "Squawk!")
-  p phrase.chomp
+  puts phrase
+  phrase
 end
 
 x = parrot
